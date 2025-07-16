@@ -11,6 +11,9 @@ app.get('/register', (req, res) => {
 app.get('/login', (req, res) => {
     res.send("Hello India")
 })
+app.get('/forgotpwd', (req, res) => {
+    res.send("Hellooooo")
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
