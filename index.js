@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello SS!')
 })
 app.get('/register', (req, res) => {
-    res.send("Hello America")
+    res.send("Hello Changes done here")
 })
 app.get('/login', (req, res) => {
     res.send("Hello India")
