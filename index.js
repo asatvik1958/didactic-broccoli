@@ -3,15 +3,18 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello SS!')
+  res.send('Hello World!')
 })
 app.get('/register', (req, res) => {
-    res.send("Hello Changes done here")
+    res.send("Hello America")
 })
 app.get('/login', (req, res) => {
     res.send("Hello India")
 })
 app.get('/forgotpwd', (req, res) => {
+    res.send("Hellooooo")
+})
+app.get('/forgotss', (req, res) => {
     res.send("Hellooooo")
 })
 app.listen(port, () => {
