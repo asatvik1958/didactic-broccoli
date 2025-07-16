@@ -17,6 +17,9 @@ app.get('/forgotpwd', (req, res) => {
 app.get('/forgotss', (req, res) => {
     res.send("Hellooooo")
 })
+app.get('/forgotpwd', (req, res) => {
+    res.send("Hellooooo")
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
