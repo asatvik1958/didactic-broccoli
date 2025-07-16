@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
 app.get('/forgotpwd', (req, res) => {
     res.send("Hellooooo")
 })
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
